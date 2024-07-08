@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Gilroy";
+    color: white;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    /* overflow-x: hidden; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+    padding: 15px 30px;
+}
+
+nav .navPart2{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(255, 0, 38); */
+    width: 30%;
+    /* gap:50px */
+}
+
+nav h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+}
+
+#frontText{
+    position: absolute;
+    left: 13%;
+    top: 25%;
+    /* background-color: blueviolet; */
+    width: 80%;
+}
+
+#frontText h1{
+    font-size: 150px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 120px;
+    /* width: 120%; */
+    /* background-color: azure; */
+}
+
+#frontText h1:nth-child(2){
+    text-align: center;
+}
+
+#frontText h1:nth-child(3){
+    text-align: center;
+}
