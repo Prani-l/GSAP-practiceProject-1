@@ -1,8 +1,6 @@
 # GSAP-practiceProject-1
 
-- Here is the [Live Link 🎉](https://www.behance.net/gallery/128734747/Francesco-Gioia/modules/729724177)
-
-- Cloning the design of [this](https://www.behance.net/gallery/128734747/Francesco-Gioia/modules/729724177) 
+- Here is the [Live Link 🎉](https://gsap-practiceproject-1.onrender.com)
 
 ---
 
@@ -18,6 +16,10 @@ This project is a landing page inspired by the Balance Designer on Behance. It i
 - **CSS**: Styling language to design the visual presentation.
 - **JavaScript**: Programming language to add interactivity.
 - **GSAP**: Animation library to create smooth animations.
+
+## Inspired by-
+
+- **[Francesco Gioia](https://www.behance.net/gallery/128734747/Francesco-Gioia/modules/729724177)** for the original design inspiration.
 
 <img src="./assets/Screenshot 2024-07-14 at 7.52.23 PM.png">
 
@@ -53,6 +55,5 @@ To set up the project locally, follow these steps:
 
 ## Acknowledgements
 
-- **[Francesco Gioia](https://www.behance.net/gallery/128734747/Francesco-Gioia/modules/729724177)** for the original design inspiration.
 - **[GSAP](https://greensock.com/gsap/)** for the animation library.
 
