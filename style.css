@@ -44,9 +44,11 @@ nav h3{
 #frontText{
     position: absolute;
     left: 13%;
-    top: 25%;
+    top: 35%;
     /* background-color: blueviolet; */
     width: 80%;
+    z-index: 4;
+    user-select: none;
 }
 
 #frontText h1{
@@ -64,4 +66,40 @@ nav h3{
 
 #frontText h1:nth-child(3){
     text-align: center;
+}
+
+img{
+    object-fit: cover;
+    object-position: top;
+    height: 45vh;
+    width: 20vw;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    /* transform: translate(-50%,-30%); */
+}
+
+#image1{
+    rotate: 30deg;
+    object-position: bottom;
+}
+#image2{
+    rotate:15deg;
+}
+footer{
+    position: relative;
+    top: 86%;
+    /* background-color: aqua; */
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    justify-content: space-around;
+    gap: 100px;
+    text-align: center;
+}
+
+footer > #name{
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
